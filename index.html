@@ -1,0 +1,1406 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>王者官网</title>
+	<style>
+		body,
+		div,
+		dl,
+		dt,
+		dd,
+		ul,
+		ol,
+		li,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		pre,
+		form,
+		fieldset,
+		input,
+		textarea,
+		p,
+		blockquote,
+		th,
+		td {
+			margin: 0;
+			padding: 0
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0
+		}
+
+		address,
+		caption,
+		cite,
+		code,
+		dfn,
+		em,
+		strong,
+		th,
+		var {
+			font-weight: normal;
+			font-style: normal
+		}
+
+		ol,
+		ul {
+			list-style: none
+		}
+
+		caption,
+		th {
+			text-align: left
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-weight: normal;
+			font-size: 100%
+		}
+
+		q:before,
+		q:after {
+			content: ''
+		}
+
+		fieldset,
+		img,
+		abbr,
+		acronym {
+			border: 0
+		}
+
+		/* footer */
+
+		#footer_ied {
+			text-align: center;
+			font-size: 12px;
+			line-height: 19px;
+			color: #594e4e;
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/foot_bg.jpg) no-repeat;
+		}
+
+		.wrap_ied {
+			margin: 0 auto;
+			padding: 30px;
+			width: 940px
+		}
+
+		.wrap_ied a {
+			color: #594e4e
+		}
+
+		#footer_ied .e {
+			font-size: 10px;
+			-webkit-text-size-adjust: none;
+		}
+
+		/* ҳ����ʽ */
+
+		.c:before,
+		.c:after {
+			content: "";
+			display: table
+		}
+
+		.c:after {
+			clear: both
+		}
+
+		.c {
+			zoom: 1
+		}
+
+		body {
+			font-family: '\5FAE\8F6F\96C5\9ED1';
+			font: 12px/1.5;
+			padding-top: 42px;
+		}
+
+		a {
+			text-decoration: none;
+			overflow: hidden;
+		}
+
+		a:hover {
+			text-decoration: none
+		}
+
+		img {
+			display: block;
+			border: none;
+		}
+
+		.wrap,
+		.#footer_ied {
+			width: 100%;
+			min-width: 1000px;
+			_width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?'1000px':'');
+		}
+
+		.wrap {
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/rp1.jpg) no-repeat 50% 0;
+		}
+
+		.wrap1 {
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/rp2.jpg) no-repeat 50% 600px;
+		}
+
+		.wrap2 {
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/rp3.jpg) no-repeat 50% 2600px;
+		}
+
+		.container {
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+		.hide {
+			display: block;
+			width: 0;
+			height: 0;
+			overflow: hidden;
+		}
+
+		.pr {
+			position: relative;
+		}
+
+		.pa {
+			position: absolute;
+		}
+
+		.fl {
+			float: left;
+		}
+
+		.fr {
+			float: right;
+		}
+
+		.pic {
+			display: block;
+		}
+
+		.fw {
+			font-weight: bold;
+		}
+
+		.db {
+			display: block;
+			text-indent: -999em;
+		}
+
+		.head {
+			font-family: "microsoft yahei";
+		}
+
+		.sp {
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/sp.png) no-repeat;
+		}
+
+		/*head */
+
+		.head {
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/hd.jpg) no-repeat 50% 0;
+			height: 490px;
+		}
+
+		.logo {
+			top: 0px;
+			left: 360px;
+			width: 290px;
+			height: 190px;
+		}
+
+		.title {
+			left: 250px;
+			top: 186px;
+			width: 509px;
+			height: 50px;
+		}
+
+		.btn {
+			top: 709px;
+			left: 198px;
+		}
+
+		.btn li {
+			float: left;
+		}
+
+		.btn li a {
+			display: block;
+			width: 266px;
+			height: 68px;
+			font-size: 24px;
+			line-height: 68px;
+			font-weight: bold;
+			color: #40180c;
+			text-indent: 113px;
+		}
+
+		.btn .andr {
+			background-position: -9px -119px;
+		}
+
+		.btn .app {
+			background-position: -9px -14px;
+		}
+
+		.btn .lr {
+			margin-right: 65px;
+		}
+
+		/*content*/
+
+		.content {
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/ct.jpg) no-repeat 50% 0;
+			padding-top: 366px;
+		}
+
+		.box1 {
+			height: 597px;
+		}
+
+		.title1 {
+			height: 77px;
+			background-position: -295px -220px;
+			font-size: 48px;
+			color: #ffffff;
+			padding-left: 20px;
+		}
+
+		.tit1 {
+			margin-left: 30px;
+			font-size: 36px;
+			font-weight: bold;
+		}
+
+		.details {
+			display: block;
+			width: 196px;
+			height: 60px;
+			background: #212144;
+			font-size: 24px;
+			color: #fcdc9f;
+			left: 797px;
+			top: 5px;
+			text-align: center;
+			line-height: 60px;
+		}
+
+		.role {
+			color: #ffa417;
+			font-style: normal;
+			font-weight: bold;
+		}
+
+		.zc {
+			font-size: 20px;
+			color: #fcdc9f;
+			line-height: 55px;
+		}
+
+		.con1 {
+			height: 383px;
+			background: #0e0f22;
+			margin-top: 15px;
+		}
+
+		.gift1 {
+			padding-left: 8px;
+		}
+
+		.gift1 li {
+			float: left;
+		}
+
+		.gift1_btn {
+			width: 320px;
+			height: 60px;
+			margin: 25px auto 0px;
+			display: block;
+			background-position: -23px -307px;
+			font-size: 26px;
+			font-weight: bold;
+			color: #212144;
+			line-height: 60px;
+			text-align: center;
+		}
+
+		.box2 {
+			height: 569px;
+		}
+
+		.title2 {
+			height: 77px;
+			background-position: -295px -220px;
+			font-size: 48px;
+			color: #ffffff;
+			padding-left: 20px;
+		}
+
+		.con2 {
+			height: 359px;
+			margin-top: 10px;
+			background: #0e0f22;
+		}
+
+		.box3 {
+			height: 518px;
+		}
+
+		.title3 {
+			height: 77px;
+			background-position: -295px -220px;
+			font-size: 48px;
+			color: #ffffff;
+			padding-left: 20px;
+		}
+
+		.gift3 {
+			padding-top: 60px;
+			padding-left: 30px;
+		}
+
+		.gift3 li {
+			float: left;
+			margin-right: 60px;
+		}
+
+		.gift3 .lr {
+			margin-right: 0px;
+		}
+
+		.gift3 span {
+			display: block;
+			font-size: 16px;
+			line-height: 47px;
+			background: #3d43b4;
+			text-align: center;
+			color: #ffffff;
+		}
+
+		.gift3 a {
+			display: block;
+			margin-top: 10px;
+			background: #212144;
+			font-size: 18px;
+			color: #ffffff;
+			line-height: 50px;
+			text-align: center;
+		}
+
+		.box4 {
+			height: 431px;
+		}
+
+		.title4 {
+			height: 77px;
+			background-position: -295px -220px;
+			font-size: 48px;
+			color: #ffffff;
+			padding-left: 20px;
+		}
+
+		.gift4 {
+			background: #0e0f22;
+			padding: 0px 30px 30px;
+			margin-top: 35px;
+		}
+
+		.gift4 li {
+			float: left;
+			position: relative;
+		}
+
+		.gift4 .l2 {
+			margin-left: 15px;
+		}
+
+		.gift4 .l3 {
+			width: 320px;
+			padding: 50px 0px 0px 65px;
+		}
+
+		.gift4 span {
+			display: block;
+			font-size: 25px;
+			font-weight: bold;
+			color: #fcdc9f;
+			line-height: 38px;
+		}
+
+		.gift4 a {
+			display: block;
+			width: 232px;
+			height: 59px;
+			background-position: -24px -230px;
+			margin-top: 25px;
+			font-size: 26px;
+			color: #212144;
+			font-weight: bold;
+			text-align: center;
+			line-height: 59px;
+		}
+
+		.pic_desp {
+			left: 0px;
+			top: 203px;
+			width: 254px;
+			font-size: 16px;
+			font-style: normal;
+			color: #ffffff;
+			line-height: 50px;
+			text-align: center;
+		}
+
+		.pic_desp1 {
+			width: 286px;
+		}
+
+		.box5 {
+			height: 787px;
+		}
+
+		.title5 {
+			height: 77px;
+			background-position: -295px -220px;
+			font-size: 48px;
+			color: #ffffff;
+			padding-left: 20px;
+		}
+
+		.gift5 {
+			background: #0e0f22;
+			padding: 6px 30px 30px;
+			margin-top: 35px;
+		}
+
+		.gift5 li {
+			float: left;
+			margin-top: 20px;
+			position: relative;
+		}
+
+		.gift5 .l3 {
+			margin-left: 35px;
+		}
+
+		.con5_pic1 {
+			font-size: 24px;
+			font-weight: bold;
+			color: #ffffff;
+			left: 380px;
+			top: 213px;
+			color: #ffffff;
+			line-height: 56px;
+		}
+
+		.ys {
+			color: #ffa417;
+			font-style: normal;
+			margin-left: 4px;
+		}
+
+		.con5_pic2 {
+			font-size: 24px;
+			font-weight: bold;
+			color: #ffffff;
+			left: 85px;
+			top: 210px;
+			color: #ffa417;
+			line-height: 56px;
+		}
+
+		.ys1 {
+			margin-left: 20px;
+			color: #ffffff;
+			font-style: normal;
+		}
+
+		.con5_pic3 {
+			font-size: 16px;
+			color: #ffffff;
+			left: 88px;
+			top: 210px;
+			line-height: 56px;
+		}
+
+		.ys2 {
+			color: #ffa417;
+			font-style: normal;
+		}
+
+		.box6 {
+			height: 700px;
+		}
+
+		.con6 {
+			height: 500px;
+			background: #0e0f22;
+		}
+
+		.gift6 {
+			margin-top: 20px;
+			padding: 0px 60px;
+		}
+
+		.gift6 li {
+			float: left;
+			margin-right: 10px;
+		}
+
+		/* banner */
+
+		.banner {
+			width: 208px;
+			height: 490px;
+			background: url(http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/fc_bg.png) no-repeat;
+		}
+
+		.nav {
+			padding: 122px 4px 0px;
+		}
+
+		.nav a,
+		.btn-top {
+			display: block;
+			width: 198px;
+			font-size: 20px;
+			font-weight: bold;
+			line-height: 48px;
+			text-align: center;
+			color: #ffa417;
+			border-top: 1px dashed #43425d;
+		}
+
+		.nav .on {
+			color: #ffffff;
+		}
+
+		.float,
+		.fixed {
+			right: 200px;
+			top: 950px;
+		}
+
+		.float {
+			position: absolute;
+			top: 950px !important;
+			right: 200px;
+		}
+
+		/* important�����У�����ie6 */
+
+		.fixed {
+			position: fixed;
+			top: 0;
+			_position: absolute;
+			_top: expression(eval(document.documentElement.scrollTop));
+			_bottom: auto;
+			/*ie6 fixed*/
+		}
+
+		* html {
+			background-image: url(about:blank);
+			background-attachment: fixed;
+		}
+
+		/*��� ie6 Fixed��������*/
+
+		.dia-con1 {
+			width: 690px;
+			background: #1d1d33;
+			border: 3px solid #fcdc9f;
+			padding-bottom: 20px;
+		}
+
+		.dia-close {
+			display: block;
+			width: 21px;
+			height: 21px;
+			background-position: -336px -40px;
+			top: 17px;
+			right: 20px;
+		}
+
+		#tab {
+			padding: 45px 24px 0px;
+		}
+
+		#tab li {
+			float: left;
+			cursor: pointer;
+			width: 310px;
+			height: 40px;
+			background: #0e0f22;
+			font-size: 21px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 40px;
+			color: #f9d48e;
+		}
+
+		#tab .lr {
+			margin-right: 15px;
+		}
+
+		#tab .on {
+			background: #42427c;
+		}
+
+		.pop1_con {
+			width: 615px;
+			background: #0e0f22;
+			margin: 10px auto 0px;
+			padding: 10px;
+		}
+
+		.table1 {
+			width: 612px;
+		}
+
+		.table1 thead th {
+			color: #f9d48e;
+			font-size: 16px;
+			line-height: 32px;
+			text-align: center;
+			background: #2e2e4c;
+			border: 1px solid #0e0f22;
+		}
+
+		.table1 tbody td {
+			border: 1px solid #212144;
+			height: 30px;
+			color: #f9d48e;
+			font-size: 16px;
+			line-height: 32px;
+			text-align: center;
+		}
+
+		.pop2_tit {
+			font-size: 26px;
+			font-weight: bold;
+			color: #f9d48e;
+			line-height: 70px;
+			text-align: center;
+		}
+
+		.table1 .pop3_zt {
+			font-size: 13px;
+		}
+
+		.table1 .pop4_zt {
+			font-size: 24px;
+		}
+
+		.table1 .pop5_zt {
+			font-size: 18px;
+		}
+
+		.pop {
+			width: 420px;
+			background: #1d1d33;
+			border: 3px solid #fcdc9f;
+			padding: 25px 90px;
+		}
+
+		.pop img {
+			display: block;
+			width: 163px;
+			height: 173px;
+			float: left;
+		}
+
+		.pop span {
+			font-size: 25px;
+			font-weight: bold;
+			color: #e0bd7a;
+			display: inline-block;
+			float: left;
+			margin-left: 27px;
+			margin-top: 29px;
+			width: 225px
+		}
+
+		:focus {
+			outline: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="wrap1">
+			<div class="wrap2">
+				<div class="container">
+					<div class="head pr">
+						<h1 class="hide">������ҫ ���ղ��޺�</h1>
+						<h2 class="title pa db">ȫ���׿�5v5Ӣ�۹�ƽ��ս����</h2>
+						<a href="http://pvp.qq.com/" title="������ҫ" class="logo db pa" target="_blank">������ҫ</a>
+						<ul class="btn pa c">
+							<li class="lr">
+								<a href="javascript:alert:;" onClick="TGDialogS('test7')" class="app sp">IOS����</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="andr sp" onClick="TGDialogS('test7')">��׿��Ϸ</a>
+							</li>
+						</ul>
+					</div>
+					<div class="content">
+						<div class="box1" name="box1">
+							<h3 class="title1 sp pr">1
+								<strong class="tit1">ע����
+									<i class="role">ϡ��Ӣ��</i>
+								</strong>
+								<a class="details pa" href="javascript:;" onClick="TGDialogS('test6')">�鿴����</a>
+							</h3>
+							<p class="zc">����ע�����</p>
+							<div class="con1">
+								<ul class="gift1 c">
+									<li>
+										<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con1_pic1.jpg" width="251" height="278" />
+									</li>
+									<li>
+										<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con1_pic2.jpg" width="251" height="278" />
+									</li>
+									<li>
+										<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con1_pic3.jpg" width="490" height="278" />
+									</li>
+								</ul>
+								<a href="/index1.html" class="gift1_btn sp">������ȡ</a>
+							</div>
+						</div>
+						<div class="box2" name="box2">
+							<h3 class="title2 sp pr">2
+								<strong class="tit1">ǩ�����弶��
+									<i class="role">����Ƥ��</i>
+								</strong>
+								<a class="details pa" onClick="TGDialogS('test1')" href="javascript:;">�鿴����</a>
+							</h3>
+							<p class="zc">���ǩ���ͳ弶��������Ӣ�ۡ�Ƥ�������ҡ���ʯ�Ͳ�ͣ</p>
+							<div class="con2">
+								<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con2_pic.jpg" width="1000" height="262" />
+								<a href="/index1.html" class="gift1_btn sp">������ȡ</a>
+							</div>
+						</div>
+						<div class="box3" name="box3">
+							<h3 class="title3 sp">3
+								<strong class="tit1">
+									<i class="role">����</i>�к���</strong>
+							</h3>
+							<ul class="gift3 c">
+								<li>
+									<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con3_pic1.jpg" alt="ÿ��ǩ���ͺ���" width="186" height="173"
+									/>
+									<span>ÿ��ǩ���ͺ���</span>
+									<a href="javascript:;" onClick="TGDialogS('test5')">�鿴����</a>
+								</li>
+								<li>
+									<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con3_pic2.jpg" alt="��5v5������Ƥ��" width="186" height="173"
+									/>
+									<span>��5v5������Ƥ��</span>
+									<a href="javascript:;" onClick="TGDialogS('test3')">�鿴����</a>
+								</li>
+								<li>
+									<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con3_pic3.jpg" alt="ӭ���޺ţ�Ӣ��������" width="186" height="173"
+									/>
+									<span>ӭ���޺ţ�Ӣ��������</span>
+									<a href="javascript:;" onClick="TGDialogS('test2')">�鿴����</a>
+								</li>
+								<li class="lr">
+									<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con3_pic4.jpg" alt="��������ʯ" width="186" height="173"
+									/>
+									<span>��������ʯ</span>
+									<a href="javascript:;" onClick="TGDialogS('test8')">�鿴����</a>
+								</li>
+							</ul>
+							<a href="/index1.html" class="gift1_btn sp">������ȡ</a>
+							</ul>
+						</div>
+						<div class="box4" name="box4">
+							<h3 class="title4 sp pr">4
+								<strong class="tit1">�׳�
+									<i class="role">������</i>
+								</strong>
+								<a class="details pa" href="javascript:;" onClick="TGDialogS('test4')">�鿴����</a>
+							</h3>
+							<ul class="gift4 c">
+								<li>
+									<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con4_pic1.jpg" alt="����Ӣ������" width="254" height="253"
+									/>
+									<i class="pic_desp pa">����Ӣ������</i>
+								</li>
+								<li class="l2">
+									<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/con4_pic2.jpg" alt="��ֵ888��ȯ����Ƥ��" width="286" height="253"
+									/>
+									<i class="pic_desp pic_desp1 pa">��ֵ888��ȯ����Ƥ��</i>
+								</li>
+								<li class="l3">
+									<span>�״γ�ֵ��6Ԫ </span>
+									<span>����ר��Ӣ�����ƣ�</span>
+									<span>�ۼ���40Ԫ��������Ƥ��</span>
+									<a href="javascript:;" class="sp" onClick="TGDialogS('test7')">���ϳ�ֵ</a>
+								</li>
+							</ul>
+						</div>
+
+						<!--����-->
+						<div class="dialog" id="test1" style="display: none;">
+							<div class="dia-con1 pr">
+								<ul id="tab" class="c">
+									<li class="lr on">ǩ��������Ƥ��</li>
+									<li>�弶�ú�����ʯ</li>
+								</ul>
+								<div class="pop1_con" id="ct1">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="210">�ʱ��</th>
+												<th width="164">�����</th>
+												<th width="233">�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="14">2016��1��1����ע���û�</td>
+												<td>�ۼƵ�¼1��</td>
+												<td>��ʯ*30</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼2��</td>
+												<td>����Ƥ��-������ʿ</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼3��</td>
+												<td>����Ӣ��-槼�</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼4��</td>
+												<td>���*188</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼5��</td>
+												<td>����Ƥ��-����ά��˹</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼6��</td>
+												<td>���*188</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼7��</td>
+												<td>����Ӣ��-������</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼8��</td>
+												<td>���*288</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼9��</td>
+												<td>��ʯ*60</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼10��</td>
+												<td>���*288</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼11��</td>
+												<td>��ʯ*60</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼12��</td>
+												<td>���*388</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼13��</td>
+												<td>��ʯ*60</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼14��</td>
+												<td>14��Ƥ��-��ż�Զ���</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="pop1_con" style="display: none;" id="ct2">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="200">�ʱ��</th>
+												<th width="164">�����</th>
+												<th width="243">�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="8">�� ��</td>
+												<td>�ﵽ6��</td>
+												<td>��ʯ*30</td>
+											</tr>
+											<tr>
+												<td>�ﵽ9��</td>
+												<td>��ʯ*50</td>
+											</tr>
+											<tr>
+												<td>�ﵽ12��</td>
+												<td>��ʯ*60 ˫����ҿ�*3��</td>
+											</tr>
+											<tr>
+												<td>�ﵽ15��</td>
+												<td>��ʯ*80 ��ҧ�𡪳���½ս��Ƥ�����鿨*7��</td>
+											</tr>
+											<tr>
+												<td>�ﵽ18��</td>
+												<td>��ʯ*120</td>
+											</tr>
+											<tr>
+												<td>�ﵽ21��</td>
+												<td>��ʯ*160 �߽��롪����Ƥ�����鿨*14��</td>
+											</tr>
+											<tr>
+												<td>�ﵽ25��</td>
+												<td>4������*1</td>
+											</tr>
+											<tr>
+												<td>�ﵽ30��</td>
+												<td>5������*1</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+
+						<div class="dialog" id="test2" style="display:none;">
+							<div class="dia-con1 pr">
+								<h3 class="pop2_tit">ӭ���޺�Ӣ�������� </h3>
+								<div class="pop1_con">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="210">�ʱ��</th>
+												<th width="164">�����</th>
+												<th width="233">�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="15">10.28-11.1</td>
+												<td rowspan="15">���Ӣ�����鿨*1��</td>
+												<td>����</td>
+											</tr>
+											<tr>
+												<td>ׯ��</td>
+											</tr>
+											<tr>
+												<td>�缧</td>
+											</tr>
+											<tr>
+												<td>����</td>
+											</tr>
+											<tr>
+												<td>������</td>
+											</tr>
+											<tr>
+												<td>��ȵ</td>
+											</tr>
+											<tr>
+												<td>³��</td>
+											</tr>
+											<tr>
+												<td>���ʽ�</td>
+											</tr>
+											<tr>
+												<td>ī��</td>
+											</tr>
+											<tr>
+												<td>���Ѿ�</td>
+											</tr>
+											<tr>
+												<td>�Ϸ���</td>
+											</tr>
+											<tr>
+												<td>����</td>
+											</tr>
+											<tr>
+												<td>����</td>
+											</tr>
+											<tr>
+												<td>��Ħ</td>
+											</tr>
+											<tr>
+												<td>����</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+
+						<div class="dialog" id="test3" style="display:none;">
+							<div class="dia-con1 pr">
+								<h3 class="pop2_tit">��5v5������Ƥ�� </h3>
+								<div class="pop1_con">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="135">�ʱ��</th>
+												<th width="235">�����</th>
+												<th width="230">�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="14">10.28-11.1</td>
+												<td rowspan="14">��5v5��Ϯ��
+													<br />ÿ�ղ���5v5����Ͽ�ȣ�
+													<br /> 100%�����Ƥ�����鿨1��</td>
+												<td>Ӣ��Ұ��</td>
+											</tr>
+											<tr>
+												<td>����֮��</td>
+											</tr>
+											<tr>
+												<td>��ѩ��Ե</td>
+											</tr>
+											<tr>
+												<td>��ʹ֮��</td>
+											</tr>
+											<tr>
+												<td>����Σ��</td>
+											</tr>
+											<tr>
+												<td>����֮ͫ</td>
+											</tr>
+											<tr>
+												<td>ľż������</td>
+											</tr>
+											<tr>
+												<td>������</td>
+											</tr>
+											<tr>
+												<td>����籩</td>
+											</tr>
+											<tr>
+												<td>���鹫��</td>
+											</tr>
+											<tr>
+												<td>��������</td>
+											</tr>
+											<tr>
+												<td>���Ļ���</td>
+											</tr>
+											<tr>
+												<td>�����һ�</td>
+											</tr>
+											<tr>
+												<td>������</td>
+											</tr>
+											<tr>
+												<td>10.30-11.3</td>
+												<td class="pop3_zt">����Ԩ���Ҷ���
+													<br /> ÿ�ղ�����Ԩ���Ҷ���100%����ʯ</td>
+												<td>10��+30���</td>
+											</tr>
+											<tr>
+												<td>11.3-11.5</td>
+												<td class="pop3_zt">��5V5��Ϯ��
+													<br /> ÿ�ղ���5v5����Ͽ�ȣ�100%����ʯ</td>
+												<td>20��ʯ</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+
+						<div class="dialog" id="test4" style="display:none;">
+							<div class="dia-con1 pr">
+								<h3 class="pop2_tit">�׳�������</h3>
+								<div class="pop1_con">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="135">�ʱ��</th>
+												<th width="235">�����</th>
+												<th width="230">�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="6" class="pop4_zt">10��28������ע���û�</td>
+												<td>�׳�60��ȯ</td>
+												<td>����Ӣ������</td>
+											</tr>
+											<tr>
+												<td rowspan="4">�״�����60��ȯ</td>
+												<td>��ҧ��С�ǡ�������
+													<br />���Ӣ�����鿨*7��</td>
+											</tr>
+											<tr>
+												<td>60��</td>
+											</tr>
+											<tr>
+												<td>600���</td>
+											</tr>
+											<tr>
+												<td>˫����ҿ�3��</td>
+											</tr>
+											<tr>
+												<td>�ۼƳ�ֵ400��ȯ</td>
+												<td>��������Ƥ����*��Ӱ</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+						<div class="dialog" id="test5" style="display:none;">
+							<div class="dia-con1 pr">
+								<h3 class="pop2_tit">ÿ��ǩ������</h3>
+								<div class="pop1_con">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="140">�ʱ��</th>
+												<th width="140">�����</th>
+												<th>�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="7" class="pop5_zt">ÿ��ˢ��</td>
+												<td>�ۼƵ�¼1��</td>
+												<td>ʤ����ҿ�*2</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼2��</td>
+												<td>��ʯ*28</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼3��</td>
+												<td>ʤ�����鿨*4</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼4��</td>
+												<td>���*88</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼5��</td>
+												<td>����������������2,3�����ģ�</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼6��</td>
+												<td>������������Ƥ�����鿨+���������</td>
+											</tr>
+											<tr>
+												<td>�ۼƵ�¼7��</td>
+												<td>���ر��䣨��ʯ ���Ҹ��� ��3�����ģ�</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+						<div class="dialog" id="test6" style="display:none;">
+							<div class="dia-con1 pr">
+								<h3 class="pop2_tit">ע����ϡ��Ӣ��</h3>
+								<div class="pop1_con">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="140">�ʱ��</th>
+												<th width="140">�����</th>
+												<th>�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td rowspan="5" class="pop3_zt">2016��10��28����</td>
+												<td rowspan="5">ע�ἴ��</td>
+												<td>����Ӣ����ɪ</td>
+											</tr>
+											<tr>
+												<td>����Ӣ������</td>
+											</tr>
+											<tr>
+												<td>˫�����鿨3��</td>
+											</tr>
+											<tr>
+												<td>68��ʯ</td>
+											</tr>
+											<tr>
+												<td>288���</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+						<div class="dialog" id="test7" style="display:none;">
+							<div class="pop pr c">
+								<img src="http://game.gtimg.cn/images/yxzj/cp/a20151028limitless/ewm.jpg" alt="��ά��" width="163" height="173" />
+								<span>�������� </span>
+								<span>��������Ϸ����ȡŶ</span>
+								<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+							</div>
+						</div>
+						<div class="dialog" id="test8" style="display:none;">
+							<div class="dia-con1 pr">
+								<h3 class="pop2_tit">��������ʯ</h3>
+								<div class="pop1_con">
+									<table class="table1">
+										<thead>
+											<tr>
+												<th width="140">�ʱ��</th>
+												<th width="140">�����</th>
+												<th>�����</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="pop3_zt">10.26-11.2</td>
+												<td>ÿ�շ���һ����Ϸ</td>
+												<td>ÿ�շ����20��ʯ</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a class="dia-close sp pa" href="javascript:showDialog.hide()" title="�ر�"></a>
+						</div>
+						<script src="http://ossweb-img.qq.com/images/js/foot.js"></script>
+						<script src="http://ossweb-img.qq.com/images/js/milo/milo-min.js"></script>
+						<script src="http://ossweb-img.qq.com/images/js/jquery/jquery-1.3.2.min.js"></script>
+						<script>
+							//���»���
+							(function ($) {
+								$(function () {
+									$('a[href*=#],area[href*=#]').click(function () {
+										if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+											var $target = $(this.hash);
+											$target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+											if ($target.length) {
+												var targetOffset = $target.offset().top;
+												$('html,body').stop(true, false).animate({
+													scrollTop: targetOffset
+												},
+													500);
+												return false;
+											}
+										}
+									});
+								})
+							})(jQuery);
+
+							//�����
+							$(function () {
+								var fixE = $("#float");
+								$(window).bind('scroll.fixed', function () {
+									if ($(window).scrollTop() >= 760) {
+										fixE.removeClass("float").addClass('fixed');
+									} else {
+										fixE.removeClass("fixed").addClass('float');
+									}
+								}).trigger('scroll.fixed');
+							})
+
+							//������Ӧ
+							$(window).bind('load scroll', function () {
+								var sTop = $(document).scrollTop();
+								for (var i = 0; i < $(".nav a").length; i++) {
+									if (sTop >= $(".box" + (i + 1)).offset().top) {
+										$(".nav a").removeClass("on");
+										$(".nav a").eq(i).addClass("on");
+									}
+								}
+							})
+
+							//TOP
+							$(".btn-top").click(function () {
+								var targets = jQuery(document.documentElement).add(document.body);
+								return targets.stop().animate({ scrollTop: 0 });
+							})
+
+							//��ǩ�л�
+							function g(e) {
+								return (typeof e == 'object') ? e : document.getElementById(e)
+							}
+							function hasClass(o, c) {
+								var regexp = new RegExp("(^|\\s)" + c + "(\\s|$)", "g");
+								return regexp.test(o.className)
+							}
+							function setTab(a, b) {
+								var tabs = g(a).getElementsByTagName('li'),
+									cts = []
+								for (var i = 1; i <= tabs.length; i++) {
+									cts.push(g(b + i));
+								};
+								for (var i = 0; i < tabs.length; i++) {
+									tabs[i].n = i;
+									tabs[i].onclick = function () {
+										if (!hasClass(this, 'on')) {
+											for (var j = 0; j < tabs.length; j++) {
+												tabs[j].className = tabs[j].className.replace(RegExp("(^|\\s)" + 'on' + "(\\s|$)", "g"), "");
+												cts[j].style.display = 'none'
+											};
+											this.className += (this.className ? " " : "") + 'on';
+											cts[this.n].style.display = 'block'
+										}
+									}
+								};
+							}
+							setTab('tab', 'ct');
+
+							//����
+							function TGDialogS(e) {
+								need("biz.dialog-min", function (Dialog) {
+									Dialog.show({
+										id: e,
+										bgcolor: '#000', //���������֡�����ɫ����ʽΪ"#FF6600"�����޸ģ�Ĭ��Ϊ"#fff"
+										opacity: 50      //���������֡���͸���ȣ���ʽΪ��10-100������ѡ
+									});
+								});
+							}
+							function closeDialog() {
+								need("biz.dialog-min", function (Dialog) {
+									Dialog.hide();
+								});
+							}
+
+							milo.addEvent(window, 'load', function () {
+								loadScript("http://ossweb-img.qq.com/images/js/title.js", function () { ostb_int() }, "");
+								loadScript("http://pingjs.qq.com/ping_tcss_ied.js", function () { if (typeof (pgvMain) == 'function') pgvMain(); });
+							});
+						</script>
+						<!--[if IE 6]>
+<script src="http://ossweb-img.qq.com/images/js/comm/DD_belatedPNG-min.js"></script>
+<script>
+DD_belatedPNG.fix('.sp,.banner');
+</script>
+<![endif]-->
+</body>
+
+</html>
